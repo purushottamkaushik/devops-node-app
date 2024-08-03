@@ -23,7 +23,7 @@ app.use('/items', itemsRouter);
 
 // default URL to API
 app.use('/', function(req, res) {
-    res.send('node-ex-api works :-)');
+    res.send('node-ex-api works purushottam :-)');
 });
 
 const server = http.createServer(app);
